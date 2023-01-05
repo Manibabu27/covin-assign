@@ -18,7 +18,7 @@ const dispatch = useDispatch()
         }).catch(err=>console.error(err))
   
 
-    }, [])
+    }, [dispatch])
 
 const data=useSelector(state=>state.user.data)
 

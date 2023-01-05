@@ -12,7 +12,7 @@ const UserPage = () => {
       })
       
       .catch(err=>console.error(err))  
-    }, [])
+    }, [id])
     
 
 
