@@ -9,7 +9,9 @@ const UserPage = () => {
       api.get(`api/users/${id}`).then(res=>{
         setdata(res.data.data)
         console.log(res.data.data)
-      }).catch(err=>console.error(err))  
+      })
+      
+      .catch(err=>console.error(err))  
     }, [])
     
 
